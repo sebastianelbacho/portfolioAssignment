@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: black;
+
+}
+
+a.menu {
+    display: inline-block;
+    width: 24%;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+a.menu:hover {
+    background-color: #c20400;
+}
